@@ -114,7 +114,7 @@ $("#btn_create").on("click", function(e){
         },
         error : function(err){
             console.log(post);
-            alert(JSON.stringify(post));
+            alert("Error creating post");
         }
     });
     init();
